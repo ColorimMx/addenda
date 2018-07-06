@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Certificado="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" CondicionesDePago="60 DIAS" Descuento="0.00" Fecha="2018-06-21T17:08:01" Folio="10000013996" FormaPago="99" LugarExpedicion="01180" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000402865790" Sello="FsKegyH847eFZ8YiCBzLNaqWm8J4qYb/GJAZFNPIoTDHT3VQtwIiCYGyD89oCNF/DeNCpg8zFDkOPQGQlaC1/PAIRze0tbF4LsgADkYEje8kP+ANShX7nc2GHHE1cbq9JX4Jywv/SBEupKzc2vXrGAZgERuckgziv2b9QP3uPT0wlfKdSC3gnNWydA0I9MugdJh86efDrBGdIXKPh0cg36UFroo2DH7dr+B0G9G0/TFFHPuARBacYQcd8cbk8POUig9eXDFD5qRHf38kQM4L36e8IisQBsM8G19cfdOvId8Buf1dlVvwAc6UMwiQjMBEA4D8XsJTQgxU6QZLChTASA==" Serie="C" SubTotal="572166.00" TipoCambio="1" TipoDeComprobante="I" Total="663712.56" Version="3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"> 
+
+  <cfdi:Emisor Nombre="COLORANTES IMPORTADOS SA DE CV" RegimenFiscal="601" Rfc="CIM581206CI9"/> 
+
+  <cfdi:Receptor Nombre="NADRO SAPI DE CV" Rfc="NAD901023GRA" UsoCFDI="G01"/> 
+
+  <cfdi:Conceptos> 
+    <cfdi:Concepto Cantidad="4940.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA AZUL MARINO 21" Descuento="0.00" Importe="79534.00" NoIdentificacion="2020010021" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="79534.00" Importe="12725.44" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="90.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA AZUL ACIANO 26" Descuento="0.00" Importe="1449.00" NoIdentificacion="2020010026" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="1449.00" Importe="231.84" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="340.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA CAFÉ 49" Descuento="0.00" Importe="5474.00" NoIdentificacion="2020010049" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="5474.00" Importe="875.84" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="12870.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA NEGRO 601 COLORANTE TEXTIL" Descuento="0.00" Importe="156756.60" NoIdentificacion="2010010601" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="156756.60" Importe="25081.056" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="250.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA BEIGE 646" Descuento="0.00" Importe="3045.00" NoIdentificacion="2010010646" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="3045.00" Importe="487.2" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="600.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA CASTAÑO OBSC 626" Descuento="0.00" Importe="7308.00" NoIdentificacion="2010010626" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="7308.00" Importe="1169.28" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="50.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA ROJO ESCARLATA 604" Descuento="0.00" Importe="609.00" NoIdentificacion="2010010604" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="609.00" Importe="97.44" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="240.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA ROJO OBSCURO 605" Descuento="0.00" Importe="2923.20" NoIdentificacion="2010010605" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="2923.20" Importe="467.712" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="5970.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA AZUL MARINO 606" Descuento="0.00" Importe="72714.60" NoIdentificacion="2010010606" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="72714.60" Importe="11634.336" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="610.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA GRIS OBSCURO 608" Descuento="0.00" Importe="7429.80" NoIdentificacion="2010010608" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="7429.80" Importe="1188.768" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="160.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA AMARILLO 612" Descuento="0.00" Importe="1948.80" NoIdentificacion="2010010612" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="1948.80" Importe="311.808" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="540.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA VERDE OBSCURO 610" Descuento="0.00" Importe="6577.20" NoIdentificacion="2010010610" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="6577.20" Importe="1052.352" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="170.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL SOBRE NEGRO 01" Descuento="0.00" Importe="2737.00" NoIdentificacion="2020020001" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="2737.00" Importe="437.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="90.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA NARANJA 618" Descuento="0.00" Importe="1096.20" NoIdentificacion="2010010618" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="1096.20" Importe="175.392" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="290.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA ROJO CLARO 624" Descuento="0.00" Importe="3532.20" NoIdentificacion="2010010624" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="3532.20" Importe="565.152" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="340.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA ROSA 616" Descuento="0.00" Importe="4141.20" NoIdentificacion="2010010616" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="4141.20" Importe="662.592" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="150.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA CASTAÑO CLARO 611" Descuento="0.00" Importe="1827.00" NoIdentificacion="2010010611" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="1827.00" Importe="292.32" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="140.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA VIOLETA AZULADO 627" Descuento="0.00" Importe="1705.20" NoIdentificacion="2010010627" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="1705.20" Importe="272.832" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="250.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA VERDE ULTRAMAR 667" Descuento="0.00" Importe="3045.00" NoIdentificacion="2010010667" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="3045.00" Importe="487.2" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="330.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA ROJO AMAPOLA 5" Descuento="0.00" Importe="5313.00" NoIdentificacion="2020010005" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="5313.00" Importe="850.08" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="170.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA VERDE OBSCURO 6" Descuento="0.00" Importe="2737.00" NoIdentificacion="2020010006" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="2737.00" Importe="437.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="400.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA AZUL OBSCURO 19" Descuento="0.00" Importe="6440.00" NoIdentificacion="2020010019" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="6440.00" Importe="1030.4" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="140.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA VERDE OLIVA 46" Descuento="0.00" Importe="2254.00" NoIdentificacion="2020010046" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="2254.00" Importe="360.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="50.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA GRIS OBSCURO 09" Descuento="0.00" Importe="805.00" NoIdentificacion="2020010009" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="805.00" Importe="128.8" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="1780.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA MEZCLILLA 655" Descuento="0.00" Importe="21680.40" NoIdentificacion="2010010655" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="21680.40" Importe="3468.864" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="870.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA PASTILLA NEGRO MEZCLILLA 602" Descuento="0.00" Importe="10596.60" NoIdentificacion="2010010602" Unidad="PIEZAS" ValorUnitario="12.1800"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="10596.60" Importe="1695.456" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="2140.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA CRISTALES 601 NEGRO 32 GR COLORANTE TEXTIL" Descuento="0.00" Importe="26964.00" NoIdentificacion="2010021601A" Unidad="PIEZAS" ValorUnitario="12.6000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="26964.00" Importe="4314.24" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="680.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA CRISTALES606 AZUL MARINO 32 GR COLORANTE TEXTIL" Descuento="0.00" Importe="8568.00" NoIdentificacion="2010021606A" Unidad="PIEZAS" ValorUnitario="12.6000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="8568.00" Importe="1370.88" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="30.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA CRISTALES610 VERDE OSC 32 GR COLORANTE TEXTIL" Descuento="0.00" Importe="378.00" NoIdentificacion="2010021610A" Unidad="PIEZAS" ValorUnitario="12.6000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="378.00" Importe="60.48" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="120.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA CRISTALES655 AZUL MEZC 32 GR COLORANTE TEXTIL" Descuento="0.00" Importe="1512.00" NoIdentificacion="2010021655A" Unidad="PIEZAS" ValorUnitario="12.6000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="1512.00" Importe="241.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="370.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA CRISTALES602 NEGRO MEZ 32 GR COLORANTE TEXTIL" Descuento="0.00" Importe="4662.00" NoIdentificacion="2010021602A" Unidad="PIEZAS" ValorUnitario="12.6000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="4662.00" Importe="745.92" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="560.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA MULTIFIBRA 101 NEGRO" Descuento="0.00" Importe="9016.00" NoIdentificacion="2010060101" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="9016.00" Importe="1442.56" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="270.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA MULTIFIBRA 106 AZUL MARINO" Descuento="0.00" Importe="4347.00" NoIdentificacion="2010060106" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="4347.00" Importe="695.52" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="10.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="MARIPOSA MULTIFIBRA 127 VIOLETA" Descuento="0.00" Importe="161.00" NoIdentificacion="2010060127" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="161.00" Importe="25.76" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+    <cfdi:Concepto Cantidad="6390.00000" ClaveProdServ="60121804" ClaveUnidad="H87" Descripcion="CITOCOL PASTILLA NEGRO 01" Descuento="0.00" Importe="102879.00" NoIdentificacion="2020010001" Unidad="PIEZAS" ValorUnitario="16.1000"> 
+      <cfdi:Impuestos> 
+        <cfdi:Traslados> 
+          <cfdi:Traslado Base="102879.00" Importe="16460.64" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+        </cfdi:Traslados> 
+      </cfdi:Impuestos> 
+    </cfdi:Concepto> 
+  </cfdi:Conceptos> 
+
+  <cfdi:Impuestos TotalImpuestosTrasladados="91546.56"> 
+    <cfdi:Traslados> 
+      <cfdi:Traslado Importe="91546.56" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/> 
+    </cfdi:Traslados> 
+  </cfdi:Impuestos> 
+
+  <cfdi:Complemento> <tfd:TimbreFiscalDigital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="858FB0F6-2A72-4C28-9132-1E46CA008537" FechaTimbrado="2018-06-21T17:02:18" RfcProvCertif="MAS980812UK1" SelloCFD="FsKegyH847eFZ8YiCBzLNaqWm8J4qYb/GJAZFNPIoTDHT3VQtwIiCYGyD89oCNF/DeNCpg8zFDkOPQGQlaC1/PAIRze0tbF4LsgADkYEje8kP+ANShX7nc2GHHE1cbq9JX4Jywv/SBEupKzc2vXrGAZgERuckgziv2b9QP3uPT0wlfKdSC3gnNWydA0I9MugdJh86efDrBGdIXKPh0cg36UFroo2DH7dr+B0G9G0/TFFHPuARBacYQcd8cbk8POUig9eXDFD5qRHf38kQM4L36e8IisQBsM8G19cfdOvId8Buf1dlVvwAc6UMwiQjMBEA4D8XsJTQgxU6QZLChTASA==" NoCertificadoSAT="00001000000405147715" SelloSAT="brVsEL1jFh0mgU5GNZPKNsfGdG3hTt9xe/Rg0mmotPp9Z3PytJTRgnboT9aPUoAtSzy6VTcBpVtqeMYcZHW1sU5eP8xNRzrmVbBmLeGniEm0DnOe941+JCSqkHSpZXBbtNEZhjTkpZ53CZm597TgPO6S/A4/O1gs+oHPOu7VN2YEZzcYVoxOLzq2+aAr2rkNcr0s4eywXN+GPpdfgq9Ep4DsBd8zbCxp3Ir7CbbJTBVmyaRBI8ddH1fmDCzT3zc9peYNp7BQXD7SxXHmN+0PMCh6m8SpB77lxPFOPdpKTYK+Qn1RzX20/wYj2Z0VHRvZsYjXWzD1/chdVZZQmXD/tg==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" /> </cfdi:Complemento> 
+
+</cfdi:Comprobante>
