@@ -1,5 +1,5 @@
 function formComer() {
-    document.getElementById("form").innerHTML = '<form class="form-horizontal bounceInLeft animated" action="ejemplo3.php" method="post"  enctype="multipart/form-data">'+
+    document.getElementById("form").innerHTML = '<form class="form-horizontal bounceInLeft animated" action="comergen.php" method="post"  enctype="multipart/form-data">'+
         '<div class="form-group">'+
         '<label for="inputFactura" class="col-sm-2 control-label">Factura</label>'+
         '<div class="col-sm-10">'+
@@ -53,7 +53,7 @@ function formComer() {
 }
 
 function formNadro() {
-    document.getElementById("form").innerHTML = '<form class="form-horizontal bounceInLeft animated" action="ejemplo2.php" method="post"  enctype="multipart/form-data">'+
+    document.getElementById("form").innerHTML = '<form class="form-horizontal bounceInLeft animated" action="nadrogen".php" method="post"  enctype="multipart/form-data">'+
         '<div class="form-group">'+
         '<label for="inputFactura" class="col-sm-2 control-label">Factura</label>'+
         '<div class="col-sm-10">'+
