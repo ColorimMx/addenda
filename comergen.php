@@ -1,5 +1,4 @@
-
-<?php
+ <?php
 
 require 'base.php';
 require 'conversor.php';

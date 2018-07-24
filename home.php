@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+include 'functions.php';
+verificar_sesion();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -21,7 +30,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Colorim</a>
+          <a class="navbar-brand" href="index.php">Colorim</a>
         </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="bounceInRight animated">
