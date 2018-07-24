@@ -14,7 +14,7 @@ if (empty($idfac && $idrec && $xml_src))  {
 
     exit('<script language="javascript">alert(\'Ingrese los datos requeridos\');</script>
 <script>
-      window.location.href = "index.html";
+      window.location.href = "home.php";
     </script>');
 
 } else {
