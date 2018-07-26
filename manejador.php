@@ -7,6 +7,8 @@
  */
 
 session_start();
+include 'functions.php';
+verificar_sesion();
 
 if (isset($_POST['submit'])) {
     $username = "Colorim";

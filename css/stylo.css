@@ -16,3 +16,9 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
     background-color: #f26300;
     border-color: #eea236;
 }
+
+.btn-danger {
+    position: absolute;
+    right: 16px;
+    font-size: 18px;
+}

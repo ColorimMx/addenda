@@ -1,4 +1,9 @@
 <?php
+
+    session_start();
+    include 'functions.php';
+    verificar_sesion();
+
 	$idfac = ($_POST["inputFactura"]);
 
 class Fac{

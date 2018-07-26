@@ -34,8 +34,9 @@ verificar_sesion();
         </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="bounceInRight animated">
-      <button type="button" class="btn btn-lacomer navbar-btn " onclick="formComer()">La Comer</button>
-      <button type="button" class="btn btn-primary navbar-btn " onclick="formNadro()">Nadro</button>
+          <button type="button" class="btn btn-lacomer navbar-btn " onclick="formComer()">La Comer</button>
+          <button type="button" class="btn btn-primary navbar-btn " onclick="formNadro()">Nadro</button>
+          <a href="salir.php"><button type="button" class="btn btn-danger navbar-btn ">Salir</button></a>
       </div>
     </div>
   </div>
