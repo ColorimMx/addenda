@@ -45,7 +45,7 @@ function formComer() {
             if (!permitida)
             {
                 alert("Comprueba la extensión de los archivos a subir. \nSólo se pueden subir archivos con extension: " + extensionesPermitidas.join());
-                window.location.href = "index.html";
+                window.location.href = "home.php";
             }
         }
     });
@@ -93,7 +93,7 @@ function formNadro() {
             if (!permitida)
             {
                 alert("Comprueba la extensión de los archivos a subir. \nSólo se pueden subir archivos con extension: " + extensionesPermitidas.join());
-                window.location.href = "index.html";
+                window.location.href = "home.php";
             }
         }
     });
