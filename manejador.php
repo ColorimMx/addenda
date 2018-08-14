@@ -11,7 +11,7 @@ session_start();
 
 if (isset($_POST['submit'])) {
     $username = "Colorim";
-    $password = "C$addenda%10";
+    $password = "C%addenda%10";
     if ( (isset($_POST['user'])) || (isset($_POST['password']) ) ){
 
         $nombre = $_POST['user'];
