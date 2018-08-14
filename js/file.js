@@ -99,3 +99,51 @@ function formNadro() {
     });
     ;
 }
+
+function formIsseg() {
+    document.getElementById("form").innerHTML = '<form class="form-horizontal bounceInLeft animated" action="isseggen.php" method="post"  enctype="multipart/form-data">'+
+        '<div class="form-group">'+
+        '<label for="inputOcompra" class="col-sm-2 control-label">Orden Compra</label>'+
+        '<div class="col-sm-10">'+
+        '<input type="text" class="form-control" id="inputOcompra" name="inputOcompra" placeholder="Orden Compra">'+
+        '</div>'+
+        '</div>'+
+        '<div class="form-group">'+
+        '<label for="inputXml" class="col-sm-2 control-label">Xml</label>'+
+        '<div class="col-sm-10">'+
+        '<input name="xml" id="xml" type="file" >'+
+        '</div>'+
+        '</div>'+
+        '<div class="form-group">'+
+        '<div class="col-sm-offset-2 col-sm-10">'+
+        '<button type="submit" class="btn btn-isseg">Addenda Isseg</button>'+
+        '</div>'+
+        '</div>'+
+        '</form>'
+    $("#xml").change(function ()
+    {
+        var archivo = $("#xml").val();
+        extensionesPermitidas = new Array(".xml");
+        miError = "";
+        if (!archivo){}
+        else
+        {
+            extension = (archivo.substring(archivo.lastIndexOf("."))).toLowerCase();
+            permitida = false;
+            for (var i = 0; i < extensionesPermitidas.length; i++)
+            {
+                if (extensionesPermitidas[i] == extension)
+                {
+                    permitida = true;
+                    break;
+                }
+            }
+            if (!permitida)
+            {
+                alert("Comprueba la extensión de los archivos a subir. \nSólo se pueden subir archivos con extension: " + extensionesPermitidas.join());
+                window.location.href = "home.php";
+            }
+        }
+    });
+    ;
+}

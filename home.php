@@ -36,6 +36,7 @@ verificar_sesion();
       <div class="bounceInRight animated">
           <button type="button" class="btn btn-lacomer navbar-btn " onclick="formComer()">La Comer</button>
           <button type="button" class="btn btn-primary navbar-btn " onclick="formNadro()">Nadro</button>
+          <button type="button" class="btn btn-isseg navbar-btn " onclick="formIsseg()">Isseg</button>
           <a href="salir.php"><button type="button" class="btn btn-danger navbar-btn ">Salir</button></a>
       </div>
     </div>
