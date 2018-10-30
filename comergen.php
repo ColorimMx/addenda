@@ -82,7 +82,7 @@ if (empty($idfac && $idrec && $xml_src))  {
         //Nodos Hijo de orderIdentification
         $refid = $orderid->appendChild($dom->createElement('referenceIdentification'));
         $refid->setAttribute('type', 'ON');
-        $refid->appendChild($dom->createTextNode($idrec));
+        $refid->appendChild($dom->createTextNode($factura->ORDEN_COMPRA_CLIENTE));
         $refdate = $orderid->appendChild($dom->createElement('ReferenceDate'));
         $refdate->appendChild($dom->createTextNode(date("Y-m-d",strtotime($factura->FECHA_FACTURA))));
 
