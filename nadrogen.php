@@ -54,7 +54,7 @@ if (empty($idfac && $xml_src))  {
             $plazo = $datnad->appendChild($dom->createElement('Plazo'));
             $plazo->appendChild($dom->createTextNode(60));
             $entrega = $datnad->appendChild($dom->createElement('EntregaEntrante'));
-            $entrega->appendChild($dom->createTextNode("SIN DATO"));
+            $entrega->appendChild($dom->createTextNode("0"));
             $posicion = $datnad->appendChild($dom->createElement('PosicionOC'));
             $posicion->appendChild($dom->createTextNode(number_format
             ($detalle->POSICION,0,",","")));
@@ -63,7 +63,9 @@ if (empty($idfac && $xml_src))  {
             ($detalle->NET_LINE_TOTAL,2,".","")));
             $codean = $datnad->appendChild($dom->createElement('CodEAN'));
             $codean->appendChild($dom->createTextNode($detalle->CODE_PROV_O_ALT));
-
+            $piezas = $datnad->appendChild($dom->createElement('Piezas'));
+            $piezas->appendChild($dom->createTextNode(number_format
+            ($detalle->QUANTITY,0,",","")));
         }
     }
 // Insert the new element

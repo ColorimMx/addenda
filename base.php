@@ -19,8 +19,8 @@ class DetalleFac{
 
 try{
 
-        $pdo = new PDO ("4D:host=100.48.0.10;charset=UTF-8","API",
-            "API");
+        $pdo = new PDO ("4D:host=100.48.0.7;charset=UTF-8","ODBC",
+            "ODBC");
 
     } catch (PDOException $ex) {
 
