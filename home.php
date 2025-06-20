@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include 'functions.php';
+include 'conf/functions.php';
 verificar_sesion();
 
 ?>
@@ -37,6 +37,7 @@ verificar_sesion();
           <button type="button" class="btn btn-lacomer navbar-btn " onclick="formComer()">La Comer</button>
           <button type="button" class="btn btn-primary navbar-btn " onclick="formNadro()">Nadro</button>
           <button type="button" class="btn btn-isseg navbar-btn " onclick="formIsseg()">Isseg</button>
+          <button type="button" class="btn btn-superkompras navbar-btn " onclick="formSuperKompras()">Super Kompras</button>
           <a href="salir.php"><button type="button" class="btn btn-danger navbar-btn ">Salir</button></a>
       </div>
     </div>
