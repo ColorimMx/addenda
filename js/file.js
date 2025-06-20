@@ -149,7 +149,16 @@ function formIsseg() {
 }
 
 function formSuperKompras() {
-    document.getElementById("form").innerHTML = '<form class="form-horizontal bounceInLeft animated" action="generadores/superkompras.php" method="post"  enctype="multipart/form-data">'+
+    // ✅ Limpiar parámetros 'res' y 'archivo' de la URL al iniciar el formulario
+    if (window.location.search.includes('res=')) {
+        const url = new URL(window.location);
+        url.searchParams.delete('res');
+        url.searchParams.delete('archivo');
+        window.history.replaceState({}, document.title, url.toString());
+    }
+
+    document.getElementById("form").innerHTML =
+        '<form class="form-horizontal bounceInLeft animated" action="generadores/superkompras.php" method="post" enctype="multipart/form-data">'+
         '<div class="form-group">'+
         '<label for="inputFactura" class="col-sm-2 control-label">Factura</label>'+
         '<div class="col-sm-10">'+
@@ -173,31 +182,18 @@ function formSuperKompras() {
         '<button type="submit" class="btn btn-superkompras">Addenda Super Kompras</button>'+
         '</div>'+
         '</div>'+
-        '</form>'
-    $("#xml").change(function ()
-    {
+        '</form>';
+
+    // Validar extensión del archivo .xml
+    $("#xml").change(function () {
         var archivo = $("#xml").val();
-        extensionesPermitidas = new Array(".xml");
-        miError = "";
-        if (!archivo){}
-        else
-        {
-            extension = (archivo.substring(archivo.lastIndexOf("."))).toLowerCase();
-            permitida = false;
-            for (var i = 0; i < extensionesPermitidas.length; i++)
-            {
-                if (extensionesPermitidas[i] == extension)
-                {
-                    permitida = true;
-                    break;
-                }
-            }
-            if (!permitida)
-            {
-                alert("Comprueba la extensión de los archivos a subir. \nSólo se pueden subir archivos con extension: " + extensionesPermitidas.join());
-                window.location.href = "home.php";
-            }
+        var extensionesPermitidas = [".xml"];
+        var extension = (archivo.substring(archivo.lastIndexOf("."))).toLowerCase();
+        var permitida = extensionesPermitidas.includes(extension);
+
+        if (!permitida && archivo) {
+            alert("Comprueba la extensión del archivo. Solo se permiten: " + extensionesPermitidas.join(", "));
+            window.location.href = "home.php";
         }
     });
-    ;
 }

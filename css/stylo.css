@@ -34,3 +34,18 @@ box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
     background-color: #1565C0 ;
     border-color: #1565C0 ;
 }
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.navbar-right {
+    float: right;
+    gap: 10px;
+}

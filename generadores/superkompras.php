@@ -2,6 +2,8 @@
 // 🔒 Opcional: puedes comentar si necesitas debug
 //error_reporting(0); ini_set('display_errors', 0);
 
+session_start(); // iniciar sesión para usar variables de sesión
+
 require_once '../conf/functions.php';
 require_once '../conf/conversor.php';
 require_once '../conf/syteline.php';
@@ -13,9 +15,11 @@ $idrec = ($_POST["inputRecibo"]) ?? null;
 $xml_src = $_FILES['xml']['tmp_name'] ?? null;
 
 if (empty($idfac) || empty($idrec) || empty($xml_src)) {
-    echo "<script>alert('Ingrese los datos requeridos'); window.location.href = '../home.php';</script>";
+    $_SESSION['mensaje_error'] = 'Ingrese los datos requeridos';
+    header("Location: ../home.php");
     exit;
 }
+
 
 // Obtener datos de la factura
 $db = new SytelineCon();
@@ -189,16 +193,13 @@ if (!is_dir(dirname($rutaArchivo))) {
 }
 
 if ($dom->save($rutaArchivo)) {
-    if (ob_get_length()) ob_end_clean();
-    header('Content-Description: File Transfer');
-    header('Content-Type: application/xml');
-    header('Content-Disposition: attachment; filename="' . basename($rutaArchivo) . '"');
-    header('Content-Length: ' . filesize($rutaArchivo));
-    header('Pragma: public');
-    readfile($rutaArchivo);
+    $_SESSION['mensaje_exito'] = 'El archivo "' . $nombreArchivo . '" se generó correctamente.';
+    $_SESSION['archivo_generado'] = $nombreArchivo; // para el enlace de descarga
+    header("Location: ../home.php");
     exit;
 } else {
-    echo "<script>alert('Error al guardar el archivo XML'); window.location.href = '../home.php';</script>";
+    $_SESSION['mensaje_error'] = 'Error al guardar el archivo XML. Verifique permisos o intente nuevamente.';
+    header("Location: ../home.php");
     exit;
 }
 ?>
